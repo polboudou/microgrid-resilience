@@ -1,4 +1,4 @@
-# MPC control for Solar-plus-Storage microgrid resilience
+# MPC control for enhanced resilience of Solar-plus-Storage microgrid
 
 Author: Pol Boudou.
 
