@@ -1,6 +1,6 @@
 # MPC control for Solar-plus-Storage microgrid resilience
 
-Author: Pol Boudou. 
+Author: Pol Boudou. \\
 Repository containing scripts for Master's Thesis project "Optimal Control of Solar-plus-Storage microgrids for enhanced Resilience against Grid Outages"
 
 Repository cointains:
