@@ -1,12 +1,13 @@
 # MPC control for Solar-plus-Storage microgrid resilience
 
-Author: Pol Boudou. Repository Master's Thesis project consisting in a MPC algorithm for microgrid control, dealing with grid outage uncertainty.
+Author: Pol Boudou. 
+Repository containing scripts for Master's Thesis project "Optimal Control of Solar-plus-Storage microgrids for enhanced Resilience against Grid Outages"
 
 Repository cointains:
-1) code for Energy Management System (EMS) simulation framework.
-2) Jupyter notebook for resilience analysis of EMS simulation output.
+1) codes for Energy Management System (EMS) simulation framework (\EMS-simulation-scripts)
+2) Jupyter notebook for resilience analysis of EMS simulation output (outage_analysis.py)
 
-When running a simulation, time-series from EMS simulation output ( have to be results will go to folder 'EMS_simulation/results_output'.
+When running a simulation, time-series from EMS simulation must be transferred to Jupyter notebook 'outage_analysis.py'.
 
 ### To run a simulation, follow the following steps:
 
