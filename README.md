@@ -1,4 +1,4 @@
-# MPC control for enhanced resilience of Solar-plus-Storage microgrid
+# MPC control for enhanced resilience of Solar-plus-Storage microgrids
 
 Author: Pol Boudou.
 
@@ -8,7 +8,7 @@ Repository cointains:
 1) codes for Energy Management System (EMS) simulation framework (\EMS-simulation-scripts)
 2) Jupyter notebook for resilience analysis of EMS simulation output (outage_analysis.py)
 
-When running a simulation, time-series from EMS simulation must be transferred to Jupyter notebook 'outage_analysis.py'.
+When running a simulation, time-series obtained from EMS simulation must be transferred to Jupyter notebook 'outage_analysis.py'.
 
 ### To run a simulation, follow the following steps:
 
@@ -18,6 +18,6 @@ When running a simulation, time-series from EMS simulation must be transferred t
 
 **Changing simulation parameters:** 
 - Simulation parameters can be changed in 'simulation.py' (simulation length, control timestep, outage forecast conditions, microgrid critical load and value of lost load (VoLL))
-- Battery model parameters must be also changed in 'mpc_resilience.py'
+- If changing battery model parameters, the same parameters must be also updated in MPC algorithm 'mpc_resilience.py'.
 
 
